@@ -25,7 +25,7 @@ SECRET_KEY = '4u1a%do9@1#pwh*-*c1wd!(z6dy_mv6oe@3@)wi1b%pf9^*)mw'
 import os
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = ['<your app URL without the https:// prefix>.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['helloservicearina.herokuapp.com','127.0.0.1']
 
 
 # Application definition
